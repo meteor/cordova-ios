@@ -1,5 +1,5 @@
 {
-  "name": "@meteorjs/cordova-ios",
+  "name": "cordova-ios",
   "version": "7.0.1",
   "description": "cordova-ios release",
   "types": "./types/index.d.ts",
