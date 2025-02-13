@@ -17,4 +17,4 @@
     under the License.
 */
 
-module.exports = require('cordova-ios');
+module.exports = require('@meteorjs/cordova-ios');

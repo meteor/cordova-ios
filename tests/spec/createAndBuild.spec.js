@@ -67,7 +67,7 @@ function verifyBuild (tmpDir) {
     // Allow test project to find the `cordova-ios` module
     fs.ensureSymlinkSync(
         path.join(__dirname, '../..'),
-        path.join(tmpDir, 'node_modules/cordova-ios'),
+        path.join(tmpDir, 'node_modules/@meteorjs/cordova-ios'),
         'junction'
     );
 
