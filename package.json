@@ -1,11 +1,16 @@
 {
-  "name": "@meteor/cordova-ios",
+  "name": "@meteorjs/cordova-ios",
   "version": "7.0.1",
   "description": "cordova-ios release",
   "types": "./types/index.d.ts",
   "main": "lib/Api.js",
-  "repository": "github:apache/cordova-ios",
-  "bugs": "https://github.com/apache/cordova-ios/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-ios.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apache/cordova-ios/issues"
+  },
   "keywords": [
     "ios",
     "cordova",
@@ -61,5 +66,10 @@
       "lcov",
       "text"
     ]
-  }
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "homepage": "https://github.com/apache/cordova-ios#readme"
 }
