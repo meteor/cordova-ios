@@ -1,5 +1,5 @@
 {
-  "name": "cordova-ios",
+  "name": "@meteor/cordova-ios",
   "version": "7.0.1",
   "description": "cordova-ios release",
   "types": "./types/index.d.ts",
@@ -41,7 +41,7 @@
     "node": ">=16.13.0"
   },
   "dependencies": {
-    "cordova-common": "^5.0.0",
+    "cordova-common": "5.0.0",
     "execa": "^5.1.1",
     "fs-extra": "^11.1.1",
     "ios-sim": "^8.0.2",
